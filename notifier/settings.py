@@ -202,3 +202,7 @@ LOCALE_PATHS = (os.path.join(os.path.dirname(os.path.dirname(__file__)), 'locale
 
 # Parameterize digest logo image url
 LOGO_IMAGE_URL = os.getenv('LOGO_IMAGE_URL', "{}/static/images/edx-theme/edx-header-logo.png".format(LMS_URL_BASE))
+
+# AWS Settings
+AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
